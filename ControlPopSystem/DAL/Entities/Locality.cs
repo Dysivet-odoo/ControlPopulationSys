@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DALL.Entities
+namespace PopControl.DALL.Entities
 {
     public class Locality
     {

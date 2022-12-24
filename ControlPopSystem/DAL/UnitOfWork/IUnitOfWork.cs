@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DALL.Repositories.Interfaces;
+using PopControl.DALL.Repositories.Interfaces;
 
-namespace DALL.UnitOfWork
+namespace PopControl.DALL.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DALL.UnitOfWork;
-using DALL.Repositories.Impl;
+using PopControl.DALL.UnitOfWork;
+using PopControl.DALL.Repositories.Impl;
 using Microsoft.EntityFrameworkCore;
-using DALL.Repositories.Interfaces;
-using DALL.Entities;
+using PopControl.DALL.Repositories.Interfaces;
+using PopControl.DALL.Entities;
 
-namespace DALL.EF
+namespace PopControl.DALL.EF
 {
     public class EFUnitOfWork
         : IUnitOfWork

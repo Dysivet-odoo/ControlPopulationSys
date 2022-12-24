@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using PopControl.DAL.Entities;
 using PopControl.DAL.Repositories.Impl;
-using Microsoft.EntityFrameWorkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Tests

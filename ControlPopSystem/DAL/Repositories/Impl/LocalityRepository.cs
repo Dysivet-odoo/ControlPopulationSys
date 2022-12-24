@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DALL.Entities;
-using DALL.Repositories.Interfaces;
-using DALL.EF;
+using PopControl.DALL.Entities;
+using PopControl.DALL.Repositories.Interfaces;
+using PopControl.DALL.EF;
 
-namespace DALL.Repositories.Impl
+namespace PopControl.DALL.Repositories.Impl
 {
     public class LocalityRepository
         : BaseRepository<Locality>, ILocalityRepository

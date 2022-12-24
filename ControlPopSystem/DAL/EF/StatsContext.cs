@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using DALL.Entities;
+using PopControl.DALL.Entities;
 
-namespace DALL.EF
+namespace PopControl.DALL.EF
 {
     public class StatsContext : DbContext
     {

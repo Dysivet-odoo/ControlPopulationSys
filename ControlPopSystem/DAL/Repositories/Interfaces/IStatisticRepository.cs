@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DALL.Entities;
+using PopControl.DALL.Entities;
 
-namespace DALL.Repositories.Interfaces
+namespace PopControl.DALL.Repositories.Interfaces
 {
     public interface IStatisticRepository 
         : IRepository<Statistics>

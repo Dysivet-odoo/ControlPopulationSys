@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DALL.Repositories.Interfaces;
+using PopControl.DALL.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace DALL.Repositories.Impl
+namespace PopControl.DALL.Repositories.Impl
 {
     public abstract class BaseRepository<T> : IRepository<T> where T : class
     { 
