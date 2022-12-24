@@ -7,7 +7,6 @@ using PopControl.DALL.UnitOfWork;
 using PopControl.DALL.Repositories.Impl;
 using Microsoft.EntityFrameworkCore;
 using PopControl.DALL.Repositories.Interfaces;
-using PopControl.DALL.Entities;
 
 namespace PopControl.DALL.EF
 {
